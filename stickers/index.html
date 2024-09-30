@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stickers</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Elige tus stickers</h1>
+    <div class="container">
+      <!-- Sticker 1 -->
+      <div class="sticker">
+        <img src="../assets/img/sticker1.jpg" width="400" />
+        <input
+          type="number"
+          id="cantidadUno"
+          value=""
+          placeholder="0"
+          min="0"
+        />
+      </div>
+
+      <!-- Sticker 2 -->
+      <div class="sticker">
+        <img src="../assets/img/sticker2.jpg" width="400" />
+        <input
+          type="number"
+          id="cantidadDos"
+          value=""
+          placeholder="0"
+          min="0"
+        />
+      </div>
+
+      <!-- Sticker 3 -->
+      <div class="sticker">
+        <img src="../assets/img/sticker3.jpg" width="400" />
+        <input
+          type="number"
+          id="cantidadTres"
+          value=""
+          placeholder="0"
+          min="0"
+        />
+      </div>
+    </div>
+    <button id="btn" onclick="validarStickers()">Validar</button>
+
+    <p id="resultado"></p>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

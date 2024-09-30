@@ -1,0 +1,27 @@
+body{
+  background-color: rgb(255, 218, 241);
+}
+.container {
+  display: flex;
+  background-color: rgb(255, 218, 241);
+}
+img{
+  width: 400px;
+  border: solid 1px #fff;
+  height: 450px;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(61, 6, 98);
+}
+#btn {
+  display: flex;
+  margin-left: 680px;
+  margin-top: 50px;
+}
+#resultado {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(61, 6, 98);
+}
